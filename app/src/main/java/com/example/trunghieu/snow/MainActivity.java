@@ -135,7 +135,9 @@ public class MainActivity extends ActionBarActivity {
                 });
             }
         });
-
+        /**
+         * Ajouter l'événément click sur le bouton
+         */
         btnVibrate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -163,6 +165,10 @@ public class MainActivity extends ActionBarActivity {
         });
     }
 
+    /**
+     * Méthode servant de sauvegarder les données de la page
+     * @param outState
+     */
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
@@ -175,6 +181,10 @@ public class MainActivity extends ActionBarActivity {
         outState.putString("JSON",resultatJson);
     }
 
+    /**
+     * Méthode servant de restaurer les données lors du changement de l'orientation
+     * @param savedInstanceState
+     */
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         if (savedInstanceState != null) {
@@ -327,6 +337,10 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
+    /**
+     * Cacher le clavier lorsqu'on clique en dehors du champs de texte
+     * @param activity
+     */
     public static void hideSoftKeyboard(Activity activity) {
         InputMethodManager inputMethodManager = (InputMethodManager)  activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(), 0);
