@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snow</string>
+
+    <string name="hello_world">Hello World!!</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_skiStation">Enter the station name</string>
+    <string name="hint">Type here&#8230;</string>
+    <string name="btnSearch_name">Search</string>
+    <string name="imgView_desc">weather description</string>
+    <string name="img_desc">Weather</string>
+    <string name="tempsMatin_dis">Morning Degree</string>
+    <string name="tempsMidi_dis">Evening Degree</string>
+    <string name="niveau_neige">Snow level</string>
+    <string name="vitesse_vent">Wind speed</string>
+    <string name="btnVibration">Deactivate</string>
+    <string name="location">Locate</string>
+</resources>

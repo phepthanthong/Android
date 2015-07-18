@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Snow</string>
+
+    <string name="hello_world">Bonjour le monde</string>
+    <string name="action_settings">Parametres</string>
+    <string name="enter_skiStation">Entrer un nom de station</string>
+    <string name="hint">Taper ici&#8230;</string>
+    <string name="btnSearch_name">Chercher</string>
+    <string name="imgView_desc">weather description</string>
+    <string name="img_desc">Meteo</string>
+    <string name="tempsMatin_dis">Temperature Matin</string>
+    <string name="tempsMidi_dis">Temperature Midi</string>
+    <string name="niveau_neige">Niveau de neige</string>
+    <string name="vitesse_vent">Vitesse du vent</string>
+    <string name="btnVibration">Deactiver</string>
+    <string name="location">Localiser</string>
+    <string name="btnSelection">Selectionner</string>
+</resources>
